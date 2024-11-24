@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    font-family: 'Afacad Flux';
+}
+
+h1 {
+    font-family: 'Afacad Flux';
+    color: var(--dark-blue);
+    font-size: 3.25em;
+}
+
+h2 {
+    font-family: 'Afacad Flux';
+    color: var(--light-blue);
+    font-size: 2.5em;
+}
+
+:root {
+    --darkest-blue: #204769;
+    --dark-blue: #38658b;
+    --blue: #467fae;
+    --light-blue: #5598d7;
+    --lightest-blue: #62b1f3;
+
+    --small-width: 768px; /* Replace with your desired value */
+    --medium-width: 1024px;
+}
+
+body {
+    color: var(--light-blue);
+}
+
+.darker-text {
+    color: var(--dark-blue);
+}
+
+@media screen and (min-width: 768px) {
+    .text-right {
+        text-align: right;
+    }
+}
+
+hr {
+    border: 1px solid var(--light-blue);
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    hr {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.content-container {
+    width: 95%;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .content-container {
+        width: 95%;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .content-container {
+        width: 75%;
+        display: flex;
+    }
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.flex-6 {
+    flex: 6;
+}
+
+.flex-7 {
+    flex: 7;
+}
+
+.flex-8 {
+    flex: 8;
+}
+
+.flex-9 {
+    flex: 9;
+}
+
+.flex-10 {
+    flex: 10;
+}
+
+.flex-11 {
+    flex: 11;
+}
+
+.flex-12 {
+    flex: 12;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-1,
+    .flex-2,
+    .flex-3,
+    .flex-4,
+    .flex-5,
+    .flex-6,
+    .flex-7,
+    .flex-8,
+    .flex-9,
+    .flex-10,
+    .flex-11 {
+        flex: 12;
+    }
+}
